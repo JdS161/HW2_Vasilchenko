@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="figures.css" rel="stylesheet">
+</head>
+
+
+<body>
+<div class="container">
+<div id="square"></div>
+<div id="triangle"></div>
+<div id="circle"></div>
+
+</div>
+<div id="sel_list" align="center">
+    <select onchange="task_1(this.options[selectedIndex], fig.options[fig.selectedIndex])" name="color" id="color">
+        <option value="green">green</option>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="yellow">yellow</option>        
+        <option value="brown">brown</option>
+        <option value="black">black</option>
+    </select>
+
+    <select name="fig" id="fig">
+        <option value="square">square</option>
+        <option value="circle">circle</option>
+        <option value="triangle">triangle</option>
+    </select>
+
+</div>
+
+<div id="button" align="center" margin-top="100px">
+    <a href="index.html"><button>Return</button></a>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>

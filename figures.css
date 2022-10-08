@@ -1,0 +1,49 @@
+#square
+{
+    height: 150px;
+    width: 150px;
+    background: rgb(0, 183, 255);
+}
+
+#triangle
+{
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 150px solid rgb(255, 204, 0);
+}
+
+#circle
+{
+    height: 150px;
+    width: 150px;
+    background: rgb(0, 255, 21);
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+}
+
+.container {
+    display: flex;
+    margin: 40px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+#color,#fig
+{
+    width: 150px;
+    alignment: center;
+}
+
+#sel_list,#button{
+    margin-top: 30px;
+    font-size: larger;
+}
+
+#color,#fig,#button
+{
+    font-weight: bold;
+    font-size: 20px;
+} 
